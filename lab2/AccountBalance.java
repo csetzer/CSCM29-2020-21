@@ -252,8 +252,8 @@ public class AccountBalance {
      */
     
     public void print() {
-	for (String user : accountBalanceBase.keySet()) {
-	    Integer value = accountBalanceBase.get(user).intValue();
+	for (String user : getUsers()) {
+	    Integer value = getBalance(user);
 	    System.out.println("The balance for " + user + " is " + value); 
 	}
 
