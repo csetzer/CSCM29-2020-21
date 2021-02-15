@@ -156,10 +156,13 @@ public class AccountBalance {
      * Converting the TxOutputList into a AccountBalance is a better approach since the
      *   TxOutputList is usually much smaller than the main AccountBalance.
      * 
+     * Note amountToCheckForDeduction is not a 2nd amount but the 
+     *    but is intended to be a TxEntryListList converted into an 
+     *    AccountBalance to check whether it can be deducted.
      */    
 
     /*
-    public boolean checkAccountBalanceDeductable(AccountBalance accountBalance2){
+    public boolean checkAccountBalanceDeductable(AccountBalance amountToCheckForDeduction){
 	// fill in Body 
     };
     */

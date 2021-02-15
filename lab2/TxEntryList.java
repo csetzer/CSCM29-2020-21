@@ -43,7 +43,7 @@ public class TxEntryList{
 
 
     /** 
-      * constructor for the TxEntryList containing one two entries
+      * constructor for the TxEntryList containing two entries
         each consisting of a user and an amount
       */        
 
@@ -78,7 +78,7 @@ public class TxEntryList{
 
 
     /** 
-      * when checking that a list of user amount list can be deducted
+      * when checking that a TxEntryList can be deducted
       *   from  an AccountBalance
       *   it is not enough to check that each single item can be deducted
       *   since for the same user several items might occur
