@@ -221,7 +221,7 @@ public class AccountBalance {
      *          It has been commented out so that the code compiles.
      *
      * Check a transaction is valid:
-     *    the sum of outputs is less than the sum of inputs
+     *    the sum of outputs is less than or equal the sum of inputs
      *    and the inputs can be deducted from the accountBalance.
      *
      */    
