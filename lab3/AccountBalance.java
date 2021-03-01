@@ -219,7 +219,7 @@ public class AccountBalance {
      *  Task 4 Check a transaction is valid.
      *
      *  this means that 
-     *    the sum of outputs is less than the sum of inputs
+     *    the sum of outputs is less than or equal the sum of inputs
      *    all signatures are valid
      *    and the inputs can be deducted from the accountBalance.
 
