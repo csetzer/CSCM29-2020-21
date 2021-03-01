@@ -117,7 +117,6 @@ public class TxOutputList{
     }
 
 
-    /**** To be deleted now in TxInputUnsigned.java ***/
     /** 
      * Create the message to be signed, if the outpupt is the current TxOutputList
      *    and the sender and amount are the inputs
